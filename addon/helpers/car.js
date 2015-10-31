@@ -1,7 +1,10 @@
 import Ember from 'ember';
 
 export function car(val) {
-  return val[0];
+  if (Ember.isArray(val)) {
+    return val[0];
+  }
+  return val;
 }
 
 export default Ember.Helper.helper(car);
