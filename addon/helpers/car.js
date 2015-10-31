@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
-export function car() {
-  return 'a';
+export function car(val) {
+  return val[0];
 }
 
 export default Ember.Helper.helper(car);
