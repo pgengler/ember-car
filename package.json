@@ -1,7 +1,7 @@
 {
   "name": "ember-car",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Lisp-like `car` and `cdr` helpers for Ember",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/pgengler/ember-car.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Phil Gengler <phil@pgengler.net> (http://pgengler.net)",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
