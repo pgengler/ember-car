@@ -1,10 +1,12 @@
 import Ember from 'ember';
 
-export function cdr(val) {
-  if (Ember.isArray(val)) {
-    return val.slice(1);
+import cdrFunc from 'ember-car/lib/cdr';
+
+export function cdr(params) {
+  if (params.length === 1) {
+    return cdrFunc(params[0]);
   }
-  return [ ];
+  return null;
 }
 
 export default Ember.Helper.helper(cdr);

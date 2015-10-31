@@ -1,10 +1,11 @@
 import Ember from 'ember';
+import carFunc from 'ember-car/lib/car';
 
-export function car(val) {
-  if (Ember.isArray(val)) {
-    return val[0];
+export function car(params) {
+  if (params.length === 1) {
+    return carFunc(params[0]);
   }
-  return val;
+  return null;
 }
 
 export default Ember.Helper.helper(car);
