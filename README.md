@@ -28,12 +28,15 @@ export default Ember.Route.extend({
 car(model): {{car model}}
 <br>
 cdr(model): {{cdr model}}
+<br>
+car(cdr(model)): {{car (cdr model)}}
 ```
 
 This example will render the output:
 ```
 car(model): first
 cdr(model): second,third
+car(cdr(model)): second
 ```
 
 ## Notes
