@@ -14,7 +14,7 @@ Two template helpers are provided, called `car` and `cdr`. These are automatical
 These template helpers each take a single (positional) parameter, the list on which to operate. `car` returns a scalar value (or `null`, if the given array is empty); `cdr` returns an array (which may be empty).
 
 Here's a brief partial example of their use:
-```
+```js
 // app/routes/index.js
 import Ember from 'ember';
 
@@ -23,8 +23,10 @@ export default Ember.Route.extend({
     return [ 'first', 'second', 'third' ];
   }
 });
+```
 
-// in app/templates/index.hbs
+```hbs
+{{!-- app/templates/index.hbs --}}
 car(model): {{car model}}
 <br>
 cdr(model): {{cdr model}}
