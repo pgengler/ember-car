@@ -1,6 +1,6 @@
 {
   "name": "ember-car",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lisp-like `car` and `cdr` helpers for Ember",
   "directories": {
     "doc": "doc",
