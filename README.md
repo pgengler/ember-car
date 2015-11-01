@@ -1,4 +1,4 @@
-# ember-car
+# ember-car [![Build Status](https://travis-ci.org/pgengler/ember-car.svg)](https://travis-ci.org/pgengler/ember-car)
 
 `ember-car` is an [http://www.ember-cli.com/](http://www.ember-cli.com/) addon that provides Lisp-like [`car` and `cdr`](https://en.wikipedia.org/wiki/CAR_and_CDR) helpers.
 
