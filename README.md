@@ -1,6 +1,6 @@
 # ember-car [![Build Status](https://travis-ci.org/pgengler/ember-car.svg)](https://travis-ci.org/pgengler/ember-car)
 
-`ember-car` is an [http://www.ember-cli.com/](http://www.ember-cli.com/) addon that provides Lisp-like [`car` and `cdr`](https://en.wikipedia.org/wiki/CAR_and_CDR) helpers.
+`ember-car` is an [ember-cli](http://www.ember-cli.com/) addon that provides Lisp-like [`car` and `cdr`](https://en.wikipedia.org/wiki/CAR_and_CDR) helpers.
 
 The short version is that given a list (array), `car` returns the item at the head of the list (index 0), while `cdr` returns a list (array) without the first element.
 
